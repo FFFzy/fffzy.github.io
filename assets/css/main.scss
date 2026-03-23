@@ -107,3 +107,132 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.paper-actions {
+    --paper-action-font-size: 0.78rem;
+    --paper-action-padding-y: 0.16rem;
+    --paper-action-padding-x: 0.70rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+
+    .btn {
+        margin-bottom: 0;
+        padding: var(--paper-action-padding-y) var(--paper-action-padding-x);
+        font-size: var(--paper-action-font-size);
+        text-decoration: none !important;
+    }
+
+    .btn:hover,
+    .btn:focus,
+    .btn:active,
+    .btn:visited {
+        text-decoration: none !important;
+    }
+}
+
+body.paper-bib-open {
+    overflow: hidden;
+}
+
+.paper-bib-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.88);
+}
+
+.paper-bib-overlay[hidden] {
+    display: none;
+}
+
+.paper-bib-modal {
+    --paper-bib-header-padding-y: 0.4rem;
+    --paper-bib-header-padding-x: 1.25rem;
+    --paper-bib-footer-padding-y: 0.4rem;
+    --paper-bib-footer-padding-x: 1.25rem;
+
+    width: calc(100vw - 2rem);
+    max-width: 42rem;
+    max-height: calc(100vh - 2rem);
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+}
+
+.paper-bib-modal__header,
+.paper-bib-modal__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.paper-bib-modal__header {
+    padding: var(--paper-bib-header-padding-y) var(--paper-bib-header-padding-x);
+    border-bottom: 1px solid $border-color;
+}
+
+.paper-bib-modal__footer {
+    padding: var(--paper-bib-footer-padding-y) var(--paper-bib-footer-padding-x);
+    border-top: 1px solid $border-color;
+}
+
+.paper-bib-modal__title {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.paper-bib-modal__close {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: $gray;
+    font-size: 1.75rem;
+    line-height: 1;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        color: $primary-color;
+    }
+}
+
+.paper-bib-content {
+    margin: 0;
+    padding: 1.25rem;
+    max-height: calc(100vh - 12rem);
+    overflow: auto;
+    background: mix(#fff, $light-gray, 75%);
+    color: $gray;
+    font-size: $type-size-6;
+    line-height: 1.65;
+    white-space: pre;
+}
+
+.paper-bib-status {
+    color: mix(#000, $gray, 40%);
+    font-size: $type-size-7;
+}
+
+@media (max-width: $small) {
+    .paper-bib-modal {
+        --paper-bib-header-padding-y: 0.875rem;
+        --paper-bib-header-padding-x: 1rem;
+        --paper-bib-footer-padding-y: 0.875rem;
+        --paper-bib-footer-padding-x: 1rem;
+    }
+
+    .paper-bib-content {
+        padding: 1rem;
+        font-size: $type-size-7;
+    }
+}

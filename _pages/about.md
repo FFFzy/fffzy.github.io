@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Zhiyuan Fang, a Ph.D. student at the School of Software Engineering, Sun Yat-sen University, where I am advised by Prof. [Wuhui Chen](https://sse.sysu.edu.cn/teacher/159). My early research focused on smart contract security, and current passion lies in optimizing LLM Systems. My recent work focuses on efficient MoE inference with offloading. And I am exploring the Kernel Fusion, AI Compiler, and Multimodal Model Serving.
+I am Zhiyuan Fang, a Ph.D. student at the School of Software Engineering, Sun Yat-sen University, where I am advised by Prof. [Wuhui Chen](https://sse.sysu.edu.cn/teacher/159). My early research focused on smart contract security, and current passion lies in optimizing LLM Systems. My recent work focuses on efficient MoE inference with offloading. And I am exploring the Kernel Fusion, AI Compiler, and Serving with NPUs.
 
 Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sysu.edu.cn](mailto:fangzhy27@mail2.sysu.edu.cn).
 
@@ -51,9 +51,10 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
       <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">TransformKV: Optimizing Multi-Turn Conversational Services in LLMs via KV cache Transformation</div> 
       <div style="margin: 4px 0;">Jiahang Zhou, <ins><strong>Zhiyuan Fang*</strong></ins>, Yusheng Qin, Wuhui Chen, Zhang Tao, Chuanfu Zhang, Zibin Zheng.</div> 
       <div style="color: #666; font-style: italic; font-size: 0.9em;">IEEE Transactions on Computers (TC), 2026</div> 
-      <!-- <div class="paper-actions">
+      <div class="paper-actions">
+        <a class="btn btn--inverse btn--small" href="https://ieeexplore.ieee.org/abstract/document/11458841">PDF</a> 
         <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-transformkv">BiB</button>
-      </div> -->
+      </div>
     </td> 
   </tr> 
   <tr style="border: none;">
@@ -124,6 +125,20 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
       <span style="background-color: #D3D3D3; color: white; width: 100px; display: inline-block; text-align: center; padding: 2px 0; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Under Review</span> 
     </td>
     <td style="border: none; padding-bottom: 20px;">
+      <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">O-MoE: Efficient MoE Serving with Offloading via Elastic Memory Management</div> 
+      <div style="margin: 4px 0;"><ins><strong>Zhiyuan Fang</strong></ins>, Dingyang Li, Jianfeng Zhong, Bin Wang, Weixi Zhu, Zicong Hong, Wuhui Chen*, Zibin Zheng.</div> 
+      <!-- <div class="paper-actions">
+        <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2603.19172">PDF</a> 
+        <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-dymoe">BiB</button>
+      </div> -->
+    </td> 
+  </tr> 
+
+  <tr style="border: none;"> 
+    <td style="width: 120px; vertical-align: top; border: none; padding-top: 5px;"> 
+      <span style="background-color: #D3D3D3; color: white; width: 100px; display: inline-block; text-align: center; padding: 2px 0; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Under Review</span> 
+    </td>
+    <td style="border: none; padding-bottom: 20px;">
       <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">GMM: Generalized OS Memory Management for XPUs</div> 
       <div style="margin: 4px 0;">Weixi Zhu, Bin Wang, <ins><strong>Zhiyuan Fang</strong></ins>, Jiahua Wang, Yao Guo, Rui Fang, Mingliang Gong, Jianfeng Tan, Yifan Huang, Ansheng You, Zhe Qiu, Minghui Yu, Tianyuan Bi, Jun Chen, Yuhang Chen, Liming Huang, Chao Liu, Wupeng Ma, Cunshu Ni, Tianchen Xiong, Qing Xiu, Huijie Xu, Junming Xu, Yanchao Yang, Gingfung Yeung, Adam Barker, Xinwei Hu.</div> 
       <!-- <div class="paper-actions">
@@ -139,9 +154,10 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
     <td style="border: none; padding-bottom: 20px;">
       <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">DyMoE: Dynamic Expert Orchestration with Mixed-Precision Quantization for Efficient MoE Inference on Edge</div> 
       <div style="margin: 4px 0;">Yuegui Huang, <ins><strong>Zhiyuan Fang*</strong></ins>, Weiqi Luo, Wuhui Chen, Ruoyu Wu, Zibin Zheng.</div> 
-      <!-- <div class="paper-actions">
+      <div class="paper-actions">
+        <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2603.19172">PDF</a> 
         <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-dymoe">BiB</button>
-      </div> -->
+      </div>
     </td> 
   </tr> 
 </table>
@@ -160,15 +176,15 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
   </div>
 </div>
 
-<!-- <template id="bib-transformkv">
+<template id="bib-transformkv">
 @article{zhou2026transformkv,
-  title={TransformKV: Optimizing Multi-Turn Conversational Services in LLMs via KV Cache Transformation},
-  author={Zhou, Jiahang and Fang, Zhiyuan and Qin, Yusheng and Chen, Wuhui and Tao, Zhang and Zhang, Chuanfu and Zheng, Zibin},
+  title={TransformKV: Optimizing Multi-Turn Conversational Services in LLMs via KV cache Transformation},
+  author={Zhou, Jiahang and Fang, Zhiyuan and Qin, Yusheng and Chen, Wuhui and Zhang, Tao and Zhang, Chuanfu and Zheng, Zibin},
   journal={IEEE Transactions on Computers},
   year={2026},
-  note={Accepted}
+  publisher={IEEE}
 }
-</template> -->
+</template>
 
 <template id="bib-fate">
 @article{fang2025fate,
@@ -223,13 +239,14 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
 }
 </template> -->
 
-<!-- <template id="bib-dymoe">
-@misc{huangdymoe,
+<template id="bib-dymoe">
+@article{huang2026dymoe,
   title={DyMoE: Dynamic Expert Orchestration with Mixed-Precision Quantization for Efficient MoE Inference on Edge},
-  author={Huang, Yuegui and Fang, Zhiyuan and Luo, Weiqi and Chen, Wuhui and Wu, Ruoyu and Zheng, Zibin},
-  note={Under Review}
+  author={Huang, Yuegui and Fang, Zhiyuan and Luo, Weiqi and Wu, Ruoyu and Chen, Wuhui and Zheng, Zibin},
+  journal={arXiv preprint arXiv:2603.19172},
+  year={2026}
 }
-</template> -->
+</template>
 
 <script src="{{ '/assets/js/paper-bib.js' | relative_url }}"></script>
 

@@ -22,7 +22,8 @@ I am Zhiyuan Fang, a Ph.D. student at the School of Software Engineering, Sun Ya
 Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sysu.edu.cn](mailto:fangzhy27@mail2.sysu.edu.cn).
 
 # Experiences
-- *2025.06 - Now*, Research Intern, Huawei 2012 Labs.
+- *2026.06 - Now*, Research Intern, Bytedance Seed.
+- *2025.06 - 2026.05*, Research Intern, Huawei 2012 Labs.
 - *2022.09 - Now*, PhD Student, Software Engineering, Sun Yat-sen University.
 - *2018.09 - 2022.07*, Bachelor, Software Engineering, Central South University.
 
@@ -66,7 +67,7 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
       <div style="margin: 4px 0;"><ins><strong>Zhiyuan Fang</strong></ins>, Xingfan Yu, Yuegui Huang, Zicong Hong*, Yufeng Lyu, Wuhui Chen, Yue Yu, Fan Yu.</div> 
       <div style="color: #666; font-style: italic; font-size: 0.9em;">In Proceedings of The ACM Web Conference (WWW), 2026</div> 
       <div class="paper-actions"> 
-        <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2502.12224">PDF</a> 
+        <a class="btn btn--inverse btn--small" href="https://dl.acm.org/doi/10.1145/3774904.3792527">PDF</a> 
         <a class="btn btn--inverse btn--small" href="https://github.com/FFFzy/Fate_open">Code</a> 
         <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-fate">BiB</button>
       </div> 
@@ -127,6 +128,48 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
     <td style="border: none; padding-bottom: 20px;">
       <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">O-MoE: Efficient MoE Serving with Offloading via Elastic Memory Management</div> 
       <div style="margin: 4px 0;"><ins><strong>Zhiyuan Fang</strong></ins>, Dingyang Li, Jianfeng Zhong, Bin Wang, Weixi Zhu, Zicong Hong, Wuhui Chen*, Zibin Zheng.</div> 
+      <!-- <div class="paper-actions">
+        <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2603.19172">PDF</a> 
+        <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-dymoe">BiB</button>
+      </div> -->
+    </td> 
+  </tr> 
+
+  <tr style="border: none;"> 
+    <td style="width: 120px; vertical-align: top; border: none; padding-top: 5px;"> 
+      <span style="background-color: #D3D3D3; color: white; width: 100px; display: inline-block; text-align: center; padding: 2px 0; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Under Review</span> 
+    </td>
+    <td style="border: none; padding-bottom: 20px;">
+      <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">Arachne: Extreme Long-sequence Prefill Optimization in Large Language Model Inference</div> 
+      <div style="margin: 4px 0;">Junyuan Liang, Yonngjia Xu, <ins><strong>Zhiyuan Fang*</strong></ins>, Wuhui Chen, Zibin Zheng.</div> 
+      <!-- <div class="paper-actions">
+        <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2603.19172">PDF</a> 
+        <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-dymoe">BiB</button>
+      </div> -->
+    </td> 
+  </tr> 
+
+  <tr style="border: none;"> 
+    <td style="width: 120px; vertical-align: top; border: none; padding-top: 5px;"> 
+      <span style="background-color: #D3D3D3; color: white; width: 100px; display: inline-block; text-align: center; padding: 2px 0; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Under Review</span> 
+    </td>
+    <td style="border: none; padding-bottom: 20px;">
+      <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition</div> 
+      <div style="margin: 4px 0;">Kaibin Guo, Pengtu Li, Zicong Hong, <ins><strong>Zhiyuan Fang</strong></ins>, Wuhui Chen, Rachid Guerraoui, Anne-Marie Kermarrec.</div> 
+      <!-- <div class="paper-actions">
+        <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2603.19172">PDF</a> 
+        <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-dymoe">BiB</button>
+      </div> -->
+    </td> 
+  </tr> 
+
+  <tr style="border: none;"> 
+    <td style="width: 120px; vertical-align: top; border: none; padding-top: 5px;"> 
+      <span style="background-color: #D3D3D3; color: white; width: 100px; display: inline-block; text-align: center; padding: 2px 0; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Under Review</span> 
+    </td>
+    <td style="border: none; padding-bottom: 20px;">
+      <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">AdaExit: Fast Vision-Language Model Inference for Vision-Centric Discriminative Workloads via Adaptive Early Exit</div> 
+      <div style="margin: 4px 0;">Jiahang Zhou, <ins><strong>Zhiyuan Fang*</strong></ins>, et al.</div> 
       <!-- <div class="paper-actions">
         <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2603.19172">PDF</a> 
         <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-dymoe">BiB</button>

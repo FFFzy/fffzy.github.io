@@ -44,6 +44,22 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
 # Publications
 ## Accepted
 <table style="width: 100%; border-collapse: collapse; border: none;">
+
+   <tr style="border: none;">
+    <td style="width: 120px; vertical-align: top; border: none; padding-top: 5px;"> 
+      <span style="background-color: #006600; color: white; width: 100px; display: inline-block; text-align: center; padding: 2px 0; border-radius: 12px; font-size: 0.85em; font-weight: bold;">NeurIPS</span> 
+    </td>
+    <td style="border: none; padding-bottom: 20px;"> 
+      <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition</div> 
+      <div style="margin: 4px 0;">Kaibin Guo, Pengtu Li, Zicong Hong, <ins><strong>Zhiyuan Fang</strong></ins>, Wuhui Chen, Rachid Guerraoui, Anne-Marie Kermarrec.</div> 
+      <div style="color: #666; font-style: italic; font-size: 0.9em;">Conference on Neural Information Processing Systems (NeurIPS), 2027</div> 
+      <!-- <div class="paper-actions">
+        <a class="btn btn--inverse btn--small" href="https://ieeexplore.ieee.org/abstract/document/11458841">PDF</a> 
+        <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-transformkv">BiB</button>
+      </div> -->
+    </td> 
+  </tr> 
+
   <tr style="border: none;">
     <td style="width: 120px; vertical-align: top; border: none; padding-top: 5px;"> 
       <span style="background-color: #006600; color: white; width: 100px; display: inline-block; text-align: center; padding: 2px 0; border-radius: 12px; font-size: 0.85em; font-weight: bold;">EuroSys</span> 
@@ -142,20 +158,6 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
     <td style="border: none; padding-bottom: 20px;">
       <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">O-MoE: Efficient MoE Serving with Offloading via Elastic Memory Management</div> 
       <div style="margin: 4px 0;"><ins><strong>Zhiyuan Fang</strong></ins>, Dingyang Li, Jianfeng Zhong, Bin Wang, Weixi Zhu, Zicong Hong, Wuhui Chen*, Zibin Zheng.</div> 
-      <!-- <div class="paper-actions">
-        <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2603.19172">PDF</a> 
-        <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-dymoe">BiB</button>
-      </div> -->
-    </td> 
-  </tr> 
-
-  <tr style="border: none;"> 
-    <td style="width: 120px; vertical-align: top; border: none; padding-top: 5px;"> 
-      <span style="background-color: #D3D3D3; color: white; width: 100px; display: inline-block; text-align: center; padding: 2px 0; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Under Review</span> 
-    </td>
-    <td style="border: none; padding-bottom: 20px;">
-      <div class="paper-title" style="font-weight: bold; font-size: 1.1em; color: #333;">AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition</div> 
-      <div style="margin: 4px 0;">Kaibin Guo, Pengtu Li, Zicong Hong, <ins><strong>Zhiyuan Fang</strong></ins>, Wuhui Chen, Rachid Guerraoui, Anne-Marie Kermarrec.</div> 
       <!-- <div class="paper-actions">
         <a class="btn btn--inverse btn--small" href="https://arxiv.org/abs/2603.19172">PDF</a> 
         <button type="button" class="btn btn--inverse btn--small paper-bib-trigger" data-bib-template="bib-dymoe">BiB</button>
@@ -298,7 +300,7 @@ Always open to discussions. Feel free to reach out to me at [fangzhy27@mail2.sys
 ## In Progress
 - *2026.01 - 2026.12*, Kernel fusion / AI complier for LLM, *Tencent*.
 - *2025.10 - 2026.10*, Fine-grained computation-communication overlapping kernel for MoE, *CCF-Huawei*.
-- *2025.08 - 2026.08*, Cost-effective MoE inference system based on heterogeneous memory, *Huawei 2012 Labs*.
 
 ## Finished
+- *2025.08 - 2026.08*, Cost-effective MoE inference system based on heterogeneous memory, *Huawei 2012 Labs*, awarded the Huawei **Spark Award**.
 - *2024.01 - 2024.12*, MoE offloading inference framework, *CAAI-Huawei Mindspore*, **Outstanding Project**.
